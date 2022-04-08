@@ -1,0 +1,44 @@
+body{
+  margin: 0px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.navbar{
+  align-items: center;
+  background-color: beige;
+  box-shadow: 0.5px 0.5px 5px #2c3e50 ;
+  display: flex;
+  height: 50px;
+  justify-content: space-around;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: bold;
+  font-size: large;
+}
+
+.main-background{
+  font-size: x-large;
+  left: 50%;
+  margin-right: -50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+}
+
+.btn{
+  padding: 0.6rem;
+  font-size: x-large;
+  border-radius: 10px;
+  border:none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: dimgrey;
+  color: white;
+}
